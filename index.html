@@ -488,7 +488,7 @@
         </label>
         <textarea id="group-custom" rows="2" 
             class="w-full p-2 border rounded focus:outline-none focus:ring-1 focus:ring-purple-300 bg-gray-50 text-gray-700 text-sm"
-            placeholder="ej: With friends, with Dog"></textarea>
+            placeholder="ej: friends, Dog"></textarea>
     </div>
 </div>
 
@@ -2224,8 +2224,8 @@
             if (personaje) {
                 let subjectDescription = personaje;
                 
-                if (grupo) subjectDescription += (`, (with ${grupo} ))`;
-                if (groupcustom) subjectDescription += `, ${groupcustom}`;
+                if (grupo) subjectDescription += `, (with ${grupo})`;
+                if (groupcustom) subjectDescription += `, (with ${groupcustom})`;
                 if (caracteristicasFisicas) subjectDescription += `, ${caracteristicasFisicas}`;
                 if (complementopersonaje) subjectDescription += `, ${complementopersonaje}`;
                 if (estiloPiel) subjectDescription += `, ${estiloPiel}`;
